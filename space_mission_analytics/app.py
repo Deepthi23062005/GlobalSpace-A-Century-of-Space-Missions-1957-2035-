@@ -16,7 +16,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("data/Space_Missions_Dataset.csv")
+df = pd.read_csv("./space_missions_dataset.csv")
 
 st.title("🚀 Space Mission Analytics")
 
