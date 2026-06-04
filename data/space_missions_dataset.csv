@@ -1,1 +1,3 @@
+if os.path.exists("data"):
+    st.write("Data folder:", os.listdir("data"))
 df = pd.read_csv("data/space_missions_dataset.csv")
