@@ -19,3 +19,11 @@ fig = px.pie(
 )
 
 st.plotly_chart(fig,use_container_width=True)
+import streamlit as st
+import pandas as pd
+
+df = pd.read_csv("data/Space_Missions_Dataset.csv")
+
+st.title("Executive Dashboard")
+
+st.metric("Total Missions", len(df))
