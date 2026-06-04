@@ -1,3 +1,8 @@
+import os
+import streamlit as st
+
+st.write("Current folder:", os.getcwd())
+st.write("Files:", os.listdir())
 import streamlit as st
 
 st.set_page_config(
